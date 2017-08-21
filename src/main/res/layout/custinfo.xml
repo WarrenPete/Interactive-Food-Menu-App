@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="match_parent"
+		android:background="@drawable/ic_launcher"
+		android:orientation="vertical"
+		android:padding="2dip"
+		android:weightSum="1">
+
+		<TextView
+			android:id="@+id/textView5"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:text="WELCOME !"
+			android:textColor="#04FE00"
+			android:textSize="25dp"
+			android:textStyle="bold" />
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:padding="5dip">
+
+			<TextView
+				android:id="@+id/custnametext"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="40dip"
+				android:text="First Name"
+				android:textColor="#04FE00" />
+
+
+			<EditText
+				android:id="@+id/cust_name"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="28dip"
+				android:layout_marginTop="40dip">
+
+				<requestFocus />
+			</EditText>
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:padding="5dip">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="40dip"
+				android:text="Phone Number"
+				android:textColor="#04FE00" />
+
+			<EditText
+				android:id="@+id/cust__number"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="42dip"
+				android:layout_marginTop="40dip"
+				android:inputType="phone"
+				android:maxLength="12" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:padding="5dip">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="40dip"
+				android:text="Table Number"
+				android:textColor="#04FE00" />
+
+			<EditText
+				android:id="@+id/cust_email"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="15dip"
+				android:layout_marginTop="40dip"
+				android:inputType="textNoSuggestions" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:padding="5dip">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="40dip"
+				android:text="Address"
+				android:textColor="#04FE00" />
+
+			<EditText
+				android:id="@+id/cust_adress"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="15dip"
+				android:layout_marginTop="40dip"
+				android:inputType="textMultiLine" />
+		</LinearLayout>
+
+		<Button
+			android:id="@+id/Save"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_marginTop="10dp"
+			android:background="@android:color/transparent"
+			android:text="GET STARTED"
+			android:textColor="#04FE00"
+			android:textSize="20dp"
+			android:textStyle="bold" />
+
+		<Button
+			android:id="@+id/button"
+			style="@style/Widget.AppCompat.Button.Borderless"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@android:drawable/screen_background_dark_transparent"
+			android:text="ADMIN " />
+
+	</LinearLayout>
+</ScrollView>
